@@ -2,6 +2,7 @@ import Ember from "ember";
 import AutoResize from "../mixins/autoresize";
 
 var get = Ember.get;
+var set = Ember.set;
 var isNone = Ember.isNone;
 const scheduleOnce = Ember.run.scheduleOnce;
 const observer = Ember.observer;
