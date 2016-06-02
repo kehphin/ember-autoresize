@@ -340,6 +340,8 @@ export default Ember.Mixin.create(/** @scope AutoResize.prototype */{
     if ($element) {
       $element.css(styles);
     }
+    
+    this.sendAction('on-resize');
   }
 
 });
